@@ -1,0 +1,82 @@
+.main-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+}
+
+.name-container-align {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  justify-content: center;
+  height: 200px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  margin: 3px;
+  color: #ffffff;
+}
+
+.heading-color {
+  color: #ffffff;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 8px;
+  background-color: #000000;
+  align-self: flex-start;
+}
+
+.button-color {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.show-name-container {
+  background-color: #ffffff;
+  width: 100px;
+  height: 70px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.para {
+  text-align: center;
+  background-color: #fddddb;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 12px;
+  padding-top: 28px;
+  padding-left: 46px;
+  padding-right: 46px;
+  padding-bottom: 28px;
+}
